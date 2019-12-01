@@ -3,6 +3,8 @@
 #else
 #define QUADMATH_CONST_H
 
+#include <quadmath.h>
+
 namespace quadmath
 {
     static constexpr __float128 max = FLT128_MAX;
