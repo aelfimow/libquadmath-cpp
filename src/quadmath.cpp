@@ -1,6 +1,7 @@
 #include <quadmath.h>
 
 #include "quadmath_const.h"
+#include "quadmath_func.h"
 
 namespace quadmath
 {
@@ -30,5 +31,40 @@ const __float128 two_over_pi = M_2_PIq;
 const __float128 two_over_sqrt_pi = M_2_SQRTPIq;
 const __float128 sqrt_2 = M_SQRT2q;
 const __float128 one_over_sqrt_2 = M_SQRT1_2q;
+
+__float128 acos(__float128 x)
+{
+    return ::acosq(x);
+}
+
+__float128 acosh(__float128 x)
+{
+    return ::acoshq(x);
+}
+
+__float128 asin(__float128 x)
+{
+    return ::asinq(x);
+}
+
+__float128 asinh(__float128 x)
+{
+    return ::asinhq(x);
+}
+
+__float128 atan(__float128 x)
+{
+    return ::atanq(x);
+}
+
+__float128 atanh(__float128 x)
+{
+    return ::atanhq(x);
+}
+
+__float128 atan2(__float128 y, __float128 x)
+{
+    return ::atan2q(y, x);
+}
 
 }
