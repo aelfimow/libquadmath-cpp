@@ -92,4 +92,31 @@ __float128 cos(__float128 x)
     return ::cosq(x);
 }
 
+__float128 erf(__float128 x)
+{
+    return ::erfq(x);
+}
+
+__float128 erfc(__float128 x)
+{
+    return ::erfcq(x);
+}
+
+#if 0
+__float128 exp2(__float128 x)
+{
+    return ::exp2q(x);
+}
+#endif
+
+__float128 exp(__float128 x)
+{
+    return ::expq(x);
+}
+
+__float128 expm1(__float128 x)
+{
+    return ::expm1q(x);
+}
+
 }

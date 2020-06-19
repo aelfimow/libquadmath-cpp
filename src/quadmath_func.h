@@ -17,6 +17,11 @@ namespace quadmath
     extern __float128 copysign(__float128 x, __float128 y);
     extern __float128 cosh(__float128 x);
     extern __float128 cos(__float128 x);
+    extern __float128 erf(__float128 x);
+    extern __float128 erfc(__float128 x);
+    extern __float128 exp2(__float128 x);
+    extern __float128 exp(__float128 x);
+    extern __float128 expm1(__float128 x);
 }
 
 #endif
