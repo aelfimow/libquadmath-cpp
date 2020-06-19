@@ -67,4 +67,29 @@ __float128 atan2(__float128 y, __float128 x)
     return ::atan2q(y, x);
 }
 
+__float128 cbrt(__float128 x)
+{
+    return ::cbrtq(x);
+}
+
+__float128 ceil(__float128 x)
+{
+    return ::ceilq(x);
+}
+
+__float128 copysign(__float128 x, __float128 y)
+{
+    return ::copysignq(x, y);
+}
+
+__float128 cosh(__float128 x)
+{
+    return ::coshq(x);
+}
+
+__float128 cos(__float128 x)
+{
+    return ::cosq(x);
+}
+
 }
