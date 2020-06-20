@@ -22,6 +22,15 @@ namespace quadmath
     extern __float128 exp2(__float128 x);
     extern __float128 exp(__float128 x);
     extern __float128 expm1(__float128 x);
+    extern __float128 fabs(__float128 x);
+    extern __float128 fdim(__float128 x);
+    extern __float128 finite(__float128 x);
+    extern __float128 floor(__float128 x);
+    extern __float128 fma(__float128 x, __float128 y, __float128 z);
+    extern __float128 fmax(__float128 x, __float128 y);
+    extern __float128 fmin(__float128 x, __float128 y);
+    extern __float128 fmod(__float128 x, __float128 y);
+    extern __float128 frexp(__float128 x, int *p);
 }
 
 #endif

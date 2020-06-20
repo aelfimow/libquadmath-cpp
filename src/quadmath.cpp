@@ -119,4 +119,49 @@ __float128 expm1(__float128 x)
     return ::expm1q(x);
 }
 
+__float128 fabs(__float128 x)
+{
+    return ::fabsq(x);
+}
+
+__float128 fdim(__float128 x)
+{
+    return ::floorq(x);
+}
+
+__float128 finite(__float128 x)
+{
+    return ::finiteq(x);
+}
+
+__float128 floor(__float128 x)
+{
+    return ::floorq(x);
+}
+
+__float128 fma(__float128 x, __float128 y, __float128 z)
+{
+    return ::fmaq(x, y, z);
+}
+
+__float128 fmax(__float128 x, __float128 y)
+{
+    return ::fmaxq(x, y);
+}
+
+__float128 fmin(__float128 x, __float128 y)
+{
+    return ::fminq(x, y);
+}
+
+__float128 fmod(__float128 x, __float128 y)
+{
+    return ::fmodq(x, y);
+}
+
+__float128 frexp(__float128 x, int *p)
+{
+    return ::frexpq(x, p);
+}
+
 }
