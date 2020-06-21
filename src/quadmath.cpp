@@ -168,4 +168,26 @@ __float128 hypot(__float128 a, __float128 b)
 {
     return ::hypotq(a, b);
 }
+
+__float128 ilogb(__float128 x)
+{
+    return ::ilogbq(x);
+}
+
+__float128 isinf(__float128 x)
+{
+    return ::isinfq(x);
+}
+
+__float128 isnan(__float128 x)
+{
+    return ::isnanq(x);
+}
+
+#if 0
+__float128 issignaling(__float128 x)
+{
+    return ::issignalingq(x);
+}
+#endif
 }

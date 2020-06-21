@@ -32,6 +32,10 @@ namespace quadmath
     extern __float128 fmod(__float128 x, __float128 y);
     extern __float128 frexp(__float128 x, int *p);
     extern __float128 hypot(__float128 a, __float128 b);
+    extern __float128 ilogb(__float128 x);
+    extern __float128 isinf(__float128 x);
+    extern __float128 isnan(__float128 x);
+    extern __float128 issignaling(__float128 x);
 }
 
 #endif
