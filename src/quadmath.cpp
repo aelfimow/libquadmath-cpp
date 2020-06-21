@@ -164,4 +164,8 @@ __float128 frexp(__float128 x, int *p)
     return ::frexpq(x, p);
 }
 
+__float128 hypot(__float128 a, __float128 b)
+{
+    return ::hypotq(a, b);
+}
 }
