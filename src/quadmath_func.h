@@ -36,6 +36,9 @@ namespace quadmath
     extern __float128 isinf(__float128 x);
     extern __float128 isnan(__float128 x);
     extern __float128 issignaling(__float128 x);
+    extern __float128 j0(__float128 x);
+    extern __float128 j1(__float128 x);
+    extern __float128 jn(int n, __float128 x);
 }
 
 #endif

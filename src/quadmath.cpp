@@ -190,4 +190,20 @@ __float128 issignaling(__float128 x)
     return ::issignalingq(x);
 }
 #endif
+
+__float128 j0(__float128 x)
+{
+    return ::j0q(x);
+}
+
+__float128 j1(__float128 x)
+{
+    return ::j1q(x);
+}
+
+__float128 jn(int n, __float128 x)
+{
+    return ::jnq(n, x);
+}
+
 }
