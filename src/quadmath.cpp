@@ -3,7 +3,7 @@
 #include "quadmath_const.h"
 #include "quadmath_func.h"
 
-namespace quadmath
+namespace quadmath_const
 {
 
 const __float128 max = FLT128_MAX;
@@ -31,6 +31,11 @@ const __float128 two_over_pi = M_2_PIq;
 const __float128 two_over_sqrt_pi = M_2_SQRTPIq;
 const __float128 sqrt_2 = M_SQRT2q;
 const __float128 one_over_sqrt_2 = M_SQRT1_2q;
+
+}
+
+namespace quadmath
+{
 
 __float128 acos(__float128 x)
 {
@@ -204,6 +209,61 @@ __float128 j1(__float128 x)
 __float128 jn(int n, __float128 x)
 {
     return ::jnq(n, x);
+}
+
+__float128 ldexp(__float128 x, int n)
+{
+    return ::ldexpq(x, n);
+}
+
+__float128 lgamma(__float128 x)
+{
+    return ::lgammaq(x);
+}
+
+long long int llrint(__float128 x)
+{
+    return ::llrintq(x);
+}
+
+long long int llround(__float128 x)
+{
+    return ::llroundq(x);
+}
+
+__float128 logb(__float128 x)
+{
+    return ::logbq(x);
+}
+
+__float128 log(__float128 x)
+{
+    return ::logq(x);
+}
+
+__float128 log10(__float128 x)
+{
+    return ::log10q(x);
+}
+
+__float128 log2(__float128 x)
+{
+    return ::log2q(x);
+}
+
+__float128 log1p(__float128 x)
+{
+    return ::log1pq(x);
+}
+
+long int lrint(__float128 x)
+{
+    return ::lrintq(x);
+}
+
+long int lround(__float128 x)
+{
+    return ::lroundq(x);
 }
 
 }

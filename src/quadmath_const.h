@@ -3,7 +3,7 @@
 #else
 #define QUADMATH_CONST_H
 
-namespace quadmath
+namespace quadmath_const
 {
     extern const __float128 max;
     extern const __float128 min;

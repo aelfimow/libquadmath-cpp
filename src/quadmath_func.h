@@ -39,6 +39,17 @@ namespace quadmath
     extern __float128 j0(__float128 x);
     extern __float128 j1(__float128 x);
     extern __float128 jn(int n, __float128 x);
+    extern __float128 ldexp(__float128 x, int n);
+    extern __float128 lgamma(__float128 x);
+    extern long long int llrint(__float128 x);
+    extern long long int llround(__float128 x);
+    extern __float128 logb(__float128 x);
+    extern __float128 log(__float128 x);
+    extern __float128 log10(__float128 x);
+    extern __float128 log2(__float128 x);
+    extern __float128 log1p(__float128 x);
+    extern long int lrint(__float128 x);
+    extern long int lround(__float128 x);
 }
 
 #endif
