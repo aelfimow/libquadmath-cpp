@@ -59,6 +59,13 @@ namespace quadmath
     extern __float128 remquo(__float128 x, __float128 y, int *p);
     extern __float128 rint(__float128 x);
     extern __float128 round(__float128 x);
+    extern __float128 scalbln(__float128 x, long int y);
+    extern __float128 scalbn(__float128 x, int y);
+    extern int signbit(__float128 x);
+    extern void sincos(__float128 x, __float128 *s, __float128 *c);
+    extern __float128 sinh(__float128 x);
+    extern __float128 sin(__float128 x);
+    extern __float128 sqrt(__float128 x);
 }
 
 #endif

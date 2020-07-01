@@ -307,4 +307,39 @@ namespace quadmath
     {
         return ::roundq(x);
     }
+
+    __float128 scalbln(__float128 x, long int y)
+    {
+        return ::scalblnq(x, y);
+    }
+
+    __float128 scalbn(__float128 x, int y)
+    {
+        return ::scalbnq(x, y);
+    }
+
+    int signbit(__float128 x)
+    {
+        return ::signbitq(x);
+    }
+
+    void sincos(__float128 x, __float128 *s, __float128 *c)
+    {
+        ::sincosq(x, s, c);
+    }
+
+    __float128 sinh(__float128 x)
+    {
+        return ::sinhq(x);
+    }
+
+    __float128 sin(__float128 x)
+    {
+        return ::sinq(x);
+    }
+
+    __float128 sqrt(__float128 x)
+    {
+        return ::sqrtq(x);
+    }
 }
