@@ -54,6 +54,7 @@ namespace quadmath
     extern __float128 nan(const char *p);
     extern __float128 nearbyint(__float128 x);
     extern __float128 nextafter(__float128 x, __float128 y);
+    extern __float128 pow(__float128 x, __float128 y);
 }
 
 #endif
