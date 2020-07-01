@@ -70,6 +70,9 @@ namespace quadmath
     extern __float128 tanh(__float128 x);
     extern __float128 tgamma(__float128 x);
     extern __float128 trunc(__float128 x);
+    extern __float128 y0(__float128 x);
+    extern __float128 y1(__float128 x);
+    extern __float128 yn(int n, __float128 x);
 }
 
 #endif

@@ -362,4 +362,19 @@ namespace quadmath
     {
         return ::truncq(x);
     }
+
+    __float128 y0(__float128 x)
+    {
+        return ::y0q(x);
+    }
+
+    __float128 y1(__float128 x)
+    {
+        return ::y1q(x);
+    }
+
+    __float128 yn(int n, __float128 x)
+    {
+        return ::ynq(n, x);
+    }
 }
