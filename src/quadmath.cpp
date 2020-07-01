@@ -287,4 +287,24 @@ namespace quadmath
     {
         return ::powq(x, y);
     }
+
+    __float128 remainder(__float128 x, __float128 y)
+    {
+        return ::remainderq(x, y);
+    }
+
+    __float128 remquo(__float128 x, __float128 y, int *p)
+    {
+        return ::remquoq(x, y, p);
+    }
+
+    __float128 rint(__float128 x)
+    {
+        return ::rintq(x);
+    }
+
+    __float128 round(__float128 x)
+    {
+        return ::roundq(x);
+    }
 }

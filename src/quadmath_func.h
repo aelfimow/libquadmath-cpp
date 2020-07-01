@@ -55,6 +55,10 @@ namespace quadmath
     extern __float128 nearbyint(__float128 x);
     extern __float128 nextafter(__float128 x, __float128 y);
     extern __float128 pow(__float128 x, __float128 y);
+    extern __float128 remainder(__float128 x, __float128 y);
+    extern __float128 remquo(__float128 x, __float128 y, int *p);
+    extern __float128 rint(__float128 x);
+    extern __float128 round(__float128 x);
 }
 
 #endif
