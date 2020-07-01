@@ -267,4 +267,19 @@ namespace quadmath
     {
         return ::modfq(x, p);
     }
+
+    __float128 nan(const char *p)
+    {
+        return ::nanq(p);
+    }
+
+    __float128 nearbyint(__float128 x)
+    {
+        return ::nearbyintq(x);
+    }
+
+    __float128 nextafter(__float128 x, __float128 y)
+    {
+        return ::nextafterq(x, y);
+    }
 }
