@@ -50,6 +50,7 @@ namespace quadmath
     extern __float128 log1p(__float128 x);
     extern long int lrint(__float128 x);
     extern long int lround(__float128 x);
+    extern __float128 modf(__float128 x, __float128 *p);
 }
 
 #endif

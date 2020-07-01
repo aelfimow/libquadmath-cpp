@@ -262,4 +262,9 @@ namespace quadmath
     {
         return ::lroundq(x);
     }
+
+    __float128 modf(__float128 x, __float128 *p)
+    {
+        return ::modfq(x, p);
+    }
 }
