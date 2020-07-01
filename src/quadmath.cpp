@@ -342,4 +342,24 @@ namespace quadmath
     {
         return ::sqrtq(x);
     }
+
+    __float128 tan(__float128 x)
+    {
+        return ::tanq(x);
+    }
+
+    __float128 tanh(__float128 x)
+    {
+        return ::tanhq(x);
+    }
+
+    __float128 tgamma(__float128 x)
+    {
+        return ::tgammaq(x);
+    }
+
+    __float128 trunc(__float128 x)
+    {
+        return ::truncq(x);
+    }
 }

@@ -66,6 +66,10 @@ namespace quadmath
     extern __float128 sinh(__float128 x);
     extern __float128 sin(__float128 x);
     extern __float128 sqrt(__float128 x);
+    extern __float128 tan(__float128 x);
+    extern __float128 tanh(__float128 x);
+    extern __float128 tgamma(__float128 x);
+    extern __float128 trunc(__float128 x);
 }
 
 #endif
