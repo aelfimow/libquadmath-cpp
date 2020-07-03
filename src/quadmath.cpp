@@ -387,4 +387,14 @@ namespace quadmath
     {
         return ::cargq(c);
     }
+
+    __float128 cimag(__complex128 c)
+    {
+        return ::cimagq(c);
+    }
+
+    __float128 creal(__complex128 c)
+    {
+        return ::crealq(c);
+    }
 }
