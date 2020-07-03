@@ -73,6 +73,9 @@ namespace quadmath
     extern __float128 y0(__float128 x);
     extern __float128 y1(__float128 x);
     extern __float128 yn(int n, __float128 x);
+
+    extern __float128 cabs(__complex128 c);
+    extern __float128 carg(__complex128 c);
 }
 
 #endif

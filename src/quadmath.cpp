@@ -377,4 +377,14 @@ namespace quadmath
     {
         return ::ynq(n, x);
     }
+
+    __float128 cabs(__complex128 c)
+    {
+        return ::cabsq(c);
+    }
+
+    __float128 carg(__complex128 c)
+    {
+        return ::cargq(c);
+    }
 }
