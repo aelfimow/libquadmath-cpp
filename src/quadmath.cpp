@@ -397,4 +397,14 @@ namespace quadmath
     {
         return ::crealq(c);
     }
+
+    __complex128 cacos(__complex128 c)
+    {
+        return ::cacosq(c);
+    }
+
+    __complex128 cacosh(__complex128 c)
+    {
+        return ::cacoshq(c);
+    }
 }
