@@ -437,4 +437,14 @@ namespace quadmath
     {
         return ::ccoshq(c);
     }
+
+    __complex128 cexp(__complex128 c)
+    {
+        return ::cexpq(c);
+    }
+
+    __complex128 cexpi(__float128 imag)
+    {
+        return ::cexpiq(imag);
+    }
 }

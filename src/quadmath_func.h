@@ -86,6 +86,8 @@ namespace quadmath
     extern __complex128 catanh(__complex128 c);
     extern __complex128 ccos(__complex128 c);
     extern __complex128 ccosh(__complex128 c);
+    extern __complex128 cexp(__complex128 c);
+    extern __complex128 cexpi(__float128 imag);
 }
 
 #endif
