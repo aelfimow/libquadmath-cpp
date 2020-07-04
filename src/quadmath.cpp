@@ -427,4 +427,14 @@ namespace quadmath
     {
         return ::catanhq(c);
     }
+
+    __complex128 ccos(__complex128 c)
+    {
+        return ::ccosq(c);
+    }
+
+    __complex128 ccosh(__complex128 c)
+    {
+        return ::ccoshq(c);
+    }
 }
