@@ -407,4 +407,14 @@ namespace quadmath
     {
         return ::cacoshq(c);
     }
+
+    __complex128 casin(__complex128 c)
+    {
+        return ::casinq(c);
+    }
+
+    __complex128 casinh(__complex128 c)
+    {
+        return ::casinhq(c);
+    }
 }
