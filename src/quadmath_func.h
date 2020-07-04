@@ -82,6 +82,8 @@ namespace quadmath
     extern __complex128 cacosh(__complex128 c);
     extern __complex128 casin(__complex128 c);
     extern __complex128 casinh(__complex128 c);
+    extern __complex128 catan(__complex128 c);
+    extern __complex128 catanh(__complex128 c);
 }
 
 #endif
