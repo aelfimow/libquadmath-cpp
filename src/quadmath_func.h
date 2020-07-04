@@ -90,6 +90,7 @@ namespace quadmath
     extern __complex128 cexpi(__float128 imag);
     extern __complex128 clog(__complex128 c);
     extern __complex128 clog10(__complex128 c);
+    extern __complex128 conj(__complex128 c);
 }
 
 #endif

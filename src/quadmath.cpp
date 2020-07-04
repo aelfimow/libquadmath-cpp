@@ -457,4 +457,9 @@ namespace quadmath
     {
         return ::clog10q(c);
     }
+
+    __complex128 conj(__complex128 c)
+    {
+        return ::conjq(c);
+    }
 }
