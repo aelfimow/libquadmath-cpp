@@ -482,4 +482,9 @@ namespace quadmath
     {
         return ::csinhq(x);
     }
+
+    __complex128 csqrt(__complex128 x)
+    {
+        return ::csqrtq(x);
+    }
 }
