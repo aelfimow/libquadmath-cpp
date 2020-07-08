@@ -462,4 +462,9 @@ namespace quadmath
     {
         return ::conjq(c);
     }
+
+    __complex128 cpow(__complex128 x, __complex128 y)
+    {
+        return ::cpowq(x, y);
+    }
 }

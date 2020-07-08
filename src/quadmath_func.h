@@ -91,6 +91,7 @@ namespace quadmath
     extern __complex128 clog(__complex128 c);
     extern __complex128 clog10(__complex128 c);
     extern __complex128 conj(__complex128 c);
+    extern __complex128 cpow(__complex128 x, __complex128 y);
 }
 
 #endif
