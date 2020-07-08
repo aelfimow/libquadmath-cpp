@@ -472,4 +472,14 @@ namespace quadmath
     {
         return ::cprojq(x);
     }
+
+    __complex128 csin(__complex128 x)
+    {
+        return ::csinq(x);
+    }
+
+    __complex128 csinh(__complex128 x)
+    {
+        return ::csinhq(x);
+    }
 }
