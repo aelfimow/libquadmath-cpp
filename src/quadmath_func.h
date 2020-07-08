@@ -96,6 +96,8 @@ namespace quadmath
     extern __complex128 csin(__complex128 x);
     extern __complex128 csinh(__complex128 x);
     extern __complex128 csqrt(__complex128 x);
+    extern __complex128 ctan(__complex128 x);
+    extern __complex128 ctanh(__complex128 x);
 }
 
 #endif

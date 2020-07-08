@@ -487,4 +487,14 @@ namespace quadmath
     {
         return ::csqrtq(x);
     }
+
+    __complex128 ctan(__complex128 x)
+    {
+        return ::ctanq(x);
+    }
+
+    __complex128 ctanh(__complex128 x)
+    {
+        return ::ctanhq(x);
+    }
 }
