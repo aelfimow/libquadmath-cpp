@@ -74,30 +74,30 @@ namespace quadmath
     extern __float128 y1(__float128 x) noexcept;
     extern __float128 yn(int n, __float128 x) noexcept;
 
-    extern __float128 cabs(__complex128 c) noexcept;
-    extern __float128 carg(__complex128 c) noexcept;
-    extern __float128 cimag(__complex128 c) noexcept;
-    extern __float128 creal(__complex128 c) noexcept;
-    extern __complex128 cacos(__complex128 c) noexcept;
-    extern __complex128 cacosh(__complex128 c) noexcept;
-    extern __complex128 casin(__complex128 c) noexcept;
-    extern __complex128 casinh(__complex128 c) noexcept;
-    extern __complex128 catan(__complex128 c) noexcept;
-    extern __complex128 catanh(__complex128 c) noexcept;
-    extern __complex128 ccos(__complex128 c) noexcept;
-    extern __complex128 ccosh(__complex128 c) noexcept;
-    extern __complex128 cexp(__complex128 c) noexcept;
-    extern __complex128 cexpi(__float128 imag) noexcept;
-    extern __complex128 clog(__complex128 c) noexcept;
-    extern __complex128 clog10(__complex128 c) noexcept;
-    extern __complex128 conj(__complex128 c) noexcept;
-    extern __complex128 cpow(__complex128 x, __complex128 y) noexcept;
-    extern __complex128 cproj(__complex128 x) noexcept;
-    extern __complex128 csin(__complex128 x) noexcept;
-    extern __complex128 csinh(__complex128 x) noexcept;
-    extern __complex128 csqrt(__complex128 x) noexcept;
-    extern __complex128 ctan(__complex128 x) noexcept;
-    extern __complex128 ctanh(__complex128 x) noexcept;
+    extern __float128 cabs(__complex128 const &c) noexcept;
+    extern __float128 carg(__complex128 const &c) noexcept;
+    extern __float128 cimag(__complex128 const &c) noexcept;
+    extern __float128 creal(__complex128 const &c) noexcept;
+    extern __complex128 cacos(__complex128 const &c) noexcept;
+    extern __complex128 cacosh(__complex128 const &c) noexcept;
+    extern __complex128 casin(__complex128 const &c) noexcept;
+    extern __complex128 casinh(__complex128 const &c) noexcept;
+    extern __complex128 catan(__complex128 const &c) noexcept;
+    extern __complex128 catanh(__complex128 const &c) noexcept;
+    extern __complex128 ccos(__complex128 const &c) noexcept;
+    extern __complex128 ccosh(__complex128 const &c) noexcept;
+    extern __complex128 cexp(__complex128 const &c) noexcept;
+    extern __complex128 cexpi(__float128 const &imag) noexcept;
+    extern __complex128 clog(__complex128 const &c) noexcept;
+    extern __complex128 clog10(__complex128 const &c) noexcept;
+    extern __complex128 conj(__complex128 const &c) noexcept;
+    extern __complex128 cpow(__complex128 const &x, __complex128 const &y) noexcept;
+    extern __complex128 cproj(__complex128 const &x) noexcept;
+    extern __complex128 csin(__complex128 const &x) noexcept;
+    extern __complex128 csinh(__complex128 const &x) noexcept;
+    extern __complex128 csqrt(__complex128 const &x) noexcept;
+    extern __complex128 ctan(__complex128 const &x) noexcept;
+    extern __complex128 ctanh(__complex128 const &x) noexcept;
 }
 
 #endif

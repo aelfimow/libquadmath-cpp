@@ -378,122 +378,122 @@ namespace quadmath
         return ::ynq(n, x);
     }
 
-    __float128 cabs(__complex128 c) noexcept
+    __float128 cabs(__complex128 const &c) noexcept
     {
         return ::cabsq(c);
     }
 
-    __float128 carg(__complex128 c) noexcept
+    __float128 carg(__complex128 const &c) noexcept
     {
         return ::cargq(c);
     }
 
-    __float128 cimag(__complex128 c) noexcept
+    __float128 cimag(__complex128 const &c) noexcept
     {
         return ::cimagq(c);
     }
 
-    __float128 creal(__complex128 c) noexcept
+    __float128 creal(__complex128 const &c) noexcept
     {
         return ::crealq(c);
     }
 
-    __complex128 cacos(__complex128 c) noexcept
+    __complex128 cacos(__complex128 const &c) noexcept
     {
         return ::cacosq(c);
     }
 
-    __complex128 cacosh(__complex128 c) noexcept
+    __complex128 cacosh(__complex128 const &c) noexcept
     {
         return ::cacoshq(c);
     }
 
-    __complex128 casin(__complex128 c) noexcept
+    __complex128 casin(__complex128 const &c) noexcept
     {
         return ::casinq(c);
     }
 
-    __complex128 casinh(__complex128 c) noexcept
+    __complex128 casinh(__complex128 const &c) noexcept
     {
         return ::casinhq(c);
     }
 
-    __complex128 catan(__complex128 c) noexcept
+    __complex128 catan(__complex128 const &c) noexcept
     {
         return ::catanq(c);
     }
 
-    __complex128 catanh(__complex128 c) noexcept
+    __complex128 catanh(__complex128 const &c) noexcept
     {
         return ::catanhq(c);
     }
 
-    __complex128 ccos(__complex128 c) noexcept
+    __complex128 ccos(__complex128 const &c) noexcept
     {
         return ::ccosq(c);
     }
 
-    __complex128 ccosh(__complex128 c) noexcept
+    __complex128 ccosh(__complex128 const &c) noexcept
     {
         return ::ccoshq(c);
     }
 
-    __complex128 cexp(__complex128 c) noexcept
+    __complex128 cexp(__complex128 const &c) noexcept
     {
         return ::cexpq(c);
     }
 
-    __complex128 cexpi(__float128 imag) noexcept
+    __complex128 cexpi(__float128 const &imag) noexcept
     {
         return ::cexpiq(imag);
     }
 
-    __complex128 clog(__complex128 c) noexcept
+    __complex128 clog(__complex128 const &c) noexcept
     {
         return ::clogq(c);
     }
 
-    __complex128 clog10(__complex128 c) noexcept
+    __complex128 clog10(__complex128 const &c) noexcept
     {
         return ::clog10q(c);
     }
 
-    __complex128 conj(__complex128 c) noexcept
+    __complex128 conj(__complex128 const &c) noexcept
     {
         return ::conjq(c);
     }
 
-    __complex128 cpow(__complex128 x, __complex128 y) noexcept
+    __complex128 cpow(__complex128 const &x, __complex128 const &y) noexcept
     {
         return ::cpowq(x, y);
     }
 
-    __complex128 cproj(__complex128 x) noexcept
+    __complex128 cproj(__complex128 const &x) noexcept
     {
         return ::cprojq(x);
     }
 
-    __complex128 csin(__complex128 x) noexcept
+    __complex128 csin(__complex128 const &x) noexcept
     {
         return ::csinq(x);
     }
 
-    __complex128 csinh(__complex128 x) noexcept
+    __complex128 csinh(__complex128 const &x) noexcept
     {
         return ::csinhq(x);
     }
 
-    __complex128 csqrt(__complex128 x) noexcept
+    __complex128 csqrt(__complex128 const &x) noexcept
     {
         return ::csqrtq(x);
     }
 
-    __complex128 ctan(__complex128 x) noexcept
+    __complex128 ctan(__complex128 const &x) noexcept
     {
         return ::ctanq(x);
     }
 
-    __complex128 ctanh(__complex128 x) noexcept
+    __complex128 ctanh(__complex128 const &x) noexcept
     {
         return ::ctanhq(x);
     }
