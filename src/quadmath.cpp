@@ -34,171 +34,171 @@ namespace quadmath_const
 
 namespace quadmath
 {
-    __float128 acos(__float128 x) noexcept
+    __float128 acos(__float128 const &x) noexcept
     {
         return ::acosq(x);
     }
 
-    __float128 acosh(__float128 x) noexcept
+    __float128 acosh(__float128 const &x) noexcept
     {
         return ::acoshq(x);
     }
 
-    __float128 asin(__float128 x) noexcept
+    __float128 asin(__float128 const &x) noexcept
     {
         return ::asinq(x);
     }
 
-    __float128 asinh(__float128 x) noexcept
+    __float128 asinh(__float128 const &x) noexcept
     {
         return ::asinhq(x);
     }
 
-    __float128 atan(__float128 x) noexcept
+    __float128 atan(__float128 const &x) noexcept
     {
         return ::atanq(x);
     }
 
-    __float128 atanh(__float128 x) noexcept
+    __float128 atanh(__float128 const &x) noexcept
     {
         return ::atanhq(x);
     }
 
-    __float128 atan2(__float128 y, __float128 x) noexcept
+    __float128 atan2(__float128 const &y, __float128 const &x) noexcept
     {
         return ::atan2q(y, x);
     }
 
-    __float128 cbrt(__float128 x) noexcept
+    __float128 cbrt(__float128 const &x) noexcept
     {
         return ::cbrtq(x);
     }
 
-    __float128 ceil(__float128 x) noexcept
+    __float128 ceil(__float128 const &x) noexcept
     {
         return ::ceilq(x);
     }
 
-    __float128 copysign(__float128 x, __float128 y) noexcept
+    __float128 copysign(__float128 const &x, __float128 const &y) noexcept
     {
         return ::copysignq(x, y);
     }
 
-    __float128 cosh(__float128 x) noexcept
+    __float128 cosh(__float128 const &x) noexcept
     {
         return ::coshq(x);
     }
 
-    __float128 cos(__float128 x) noexcept
+    __float128 cos(__float128 const &x) noexcept
     {
         return ::cosq(x);
     }
 
-    __float128 erf(__float128 x) noexcept
+    __float128 erf(__float128 const &x) noexcept
     {
         return ::erfq(x);
     }
 
-    __float128 erfc(__float128 x) noexcept
+    __float128 erfc(__float128 const &x) noexcept
     {
         return ::erfcq(x);
     }
 
 #if 0
-    __float128 exp2(__float128 x) noexcept
+    __float128 exp2(__float128 const &x) noexcept
     {
         return ::exp2q(x);
     }
 #endif
 
-    __float128 exp(__float128 x) noexcept
+    __float128 exp(__float128 const &x) noexcept
     {
         return ::expq(x);
     }
 
-    __float128 expm1(__float128 x) noexcept
+    __float128 expm1(__float128 const &x) noexcept
     {
         return ::expm1q(x);
     }
 
-    __float128 fabs(__float128 x) noexcept
+    __float128 fabs(__float128 const &x) noexcept
     {
         return ::fabsq(x);
     }
 
-    __float128 fdim(__float128 x) noexcept
+    __float128 fdim(__float128 const &x) noexcept
     {
         return ::floorq(x);
     }
 
-    __float128 finite(__float128 x) noexcept
+    __float128 finite(__float128 const &x) noexcept
     {
         return ::finiteq(x);
     }
 
-    __float128 floor(__float128 x) noexcept
+    __float128 floor(__float128 const &x) noexcept
     {
         return ::floorq(x);
     }
 
-    __float128 fma(__float128 x, __float128 y, __float128 z) noexcept
+    __float128 fma(__float128 const &x, __float128 const &y, __float128 const &z) noexcept
     {
         return ::fmaq(x, y, z);
     }
 
-    __float128 fmax(__float128 x, __float128 y) noexcept
+    __float128 fmax(__float128 const &x, __float128 const &y) noexcept
     {
         return ::fmaxq(x, y);
     }
 
-    __float128 fmin(__float128 x, __float128 y) noexcept
+    __float128 fmin(__float128 const &x, __float128 const &y) noexcept
     {
         return ::fminq(x, y);
     }
 
-    __float128 fmod(__float128 x, __float128 y) noexcept
+    __float128 fmod(__float128 const &x, __float128 const &y) noexcept
     {
         return ::fmodq(x, y);
     }
 
-    __float128 frexp(__float128 x, int *p) noexcept
+    __float128 frexp(__float128 const &x, int *p) noexcept
     {
         return ::frexpq(x, p);
     }
 
-    __float128 hypot(__float128 a, __float128 b) noexcept
+    __float128 hypot(__float128 const &a, __float128 const &b) noexcept
     {
         return ::hypotq(a, b);
     }
 
-    __float128 ilogb(__float128 x) noexcept
+    __float128 ilogb(__float128 const &x) noexcept
     {
         return ::ilogbq(x);
     }
 
-    __float128 isinf(__float128 x) noexcept
+    __float128 isinf(__float128 const &x) noexcept
     {
         return ::isinfq(x);
     }
 
-    __float128 isnan(__float128 x) noexcept
+    __float128 isnan(__float128 const &x) noexcept
     {
         return ::isnanq(x);
     }
 
 #if 0
-    __float128 issignaling(__float128 x) noexcept
+    __float128 issignaling(__float128 const &x) noexcept
     {
         return ::issignalingq(x);
     }
 #endif
 
-    __float128 j0(__float128 x) noexcept
+    __float128 j0(__float128 const &x) noexcept
     {
         return ::j0q(x);
     }
 
-    __float128 j1(__float128 x) noexcept
+    __float128 j1(__float128 const &x) noexcept
     {
         return ::j1q(x);
     }
@@ -208,64 +208,64 @@ namespace quadmath
         return ::jnq(n, x);
     }
 
-    __float128 ldexp(__float128 x, int n) noexcept
+    __float128 ldexp(__float128 const &x, int n) noexcept
     {
         return ::ldexpq(x, n);
     }
 
-    __float128 lgamma(__float128 x) noexcept
+    __float128 lgamma(__float128 const &x) noexcept
     {
         return ::lgammaq(x);
     }
 
-    long long int llrint(__float128 x) noexcept
+    long long int llrint(__float128 const &x) noexcept
     {
         return ::llrintq(x);
     }
 
-    long long int llround(__float128 x) noexcept
+    long long int llround(__float128 const &x) noexcept
     {
         return ::llroundq(x);
     }
 
-    __float128 logb(__float128 x) noexcept
+    __float128 logb(__float128 const &x) noexcept
     {
         return ::logbq(x);
     }
 
-    __float128 log(__float128 x) noexcept
+    __float128 log(__float128 const &x) noexcept
     {
         return ::logq(x);
     }
 
-    __float128 log10(__float128 x) noexcept
+    __float128 log10(__float128 const &x) noexcept
     {
         return ::log10q(x);
     }
 
-    __float128 log2(__float128 x) noexcept
+    __float128 log2(__float128 const &x) noexcept
     {
         return ::log2q(x);
     }
 
-    __float128 log1p(__float128 x) noexcept
+    __float128 log1p(__float128 const &x) noexcept
     {
         return ::log1pq(x);
     }
 
-    long int lrint(__float128 x) noexcept
+    long int lrint(__float128 const &x) noexcept
     {
         return ::lrintq(x);
     }
 
-    long int lround(__float128 x) noexcept
+    long int lround(__float128 const &x) noexcept
     {
         return ::lroundq(x);
     }
 
-    __float128 modf(__float128 x, __float128 *p) noexcept
+    __float128 modf(__float128 const &x, __float128 &p) noexcept
     {
-        return ::modfq(x, p);
+        return ::modfq(x, &p);
     }
 
     __float128 nan(const char *p) noexcept
@@ -273,102 +273,102 @@ namespace quadmath
         return ::nanq(p);
     }
 
-    __float128 nearbyint(__float128 x) noexcept
+    __float128 nearbyint(__float128 const &x) noexcept
     {
         return ::nearbyintq(x);
     }
 
-    __float128 nextafter(__float128 x, __float128 y) noexcept
+    __float128 nextafter(__float128 const &x, __float128 const &y) noexcept
     {
         return ::nextafterq(x, y);
     }
 
-    __float128 pow(__float128 x, __float128 y) noexcept
+    __float128 pow(__float128 const &x, __float128 const &y) noexcept
     {
         return ::powq(x, y);
     }
 
-    __float128 remainder(__float128 x, __float128 y) noexcept
+    __float128 remainder(__float128 const &x, __float128 const &y) noexcept
     {
         return ::remainderq(x, y);
     }
 
-    __float128 remquo(__float128 x, __float128 y, int *p) noexcept
+    __float128 remquo(__float128 const &x, __float128 const &y, int *p) noexcept
     {
         return ::remquoq(x, y, p);
     }
 
-    __float128 rint(__float128 x) noexcept
+    __float128 rint(__float128 const &x) noexcept
     {
         return ::rintq(x);
     }
 
-    __float128 round(__float128 x) noexcept
+    __float128 round(__float128 const &x) noexcept
     {
         return ::roundq(x);
     }
 
-    __float128 scalbln(__float128 x, long int y) noexcept
+    __float128 scalbln(__float128 const &x, long int y) noexcept
     {
         return ::scalblnq(x, y);
     }
 
-    __float128 scalbn(__float128 x, int y) noexcept
+    __float128 scalbn(__float128 const &x, int y) noexcept
     {
         return ::scalbnq(x, y);
     }
 
-    int signbit(__float128 x) noexcept
+    int signbit(__float128 const &x) noexcept
     {
         return ::signbitq(x);
     }
 
-    void sincos(__float128 x, __float128 *s, __float128 *c) noexcept
+    void sincos(__float128 const &x, __float128 &s, __float128 &c) noexcept
     {
-        ::sincosq(x, s, c);
+        ::sincosq(x, &s, &c);
     }
 
-    __float128 sinh(__float128 x) noexcept
+    __float128 sinh(__float128 const &x) noexcept
     {
         return ::sinhq(x);
     }
 
-    __float128 sin(__float128 x) noexcept
+    __float128 sin(__float128 const &x) noexcept
     {
         return ::sinq(x);
     }
 
-    __float128 sqrt(__float128 x) noexcept
+    __float128 sqrt(__float128 const &x) noexcept
     {
         return ::sqrtq(x);
     }
 
-    __float128 tan(__float128 x) noexcept
+    __float128 tan(__float128 const &x) noexcept
     {
         return ::tanq(x);
     }
 
-    __float128 tanh(__float128 x) noexcept
+    __float128 tanh(__float128 const &x) noexcept
     {
         return ::tanhq(x);
     }
 
-    __float128 tgamma(__float128 x) noexcept
+    __float128 tgamma(__float128 const &x) noexcept
     {
         return ::tgammaq(x);
     }
 
-    __float128 trunc(__float128 x) noexcept
+    __float128 trunc(__float128 const &x) noexcept
     {
         return ::truncq(x);
     }
 
-    __float128 y0(__float128 x) noexcept
+    __float128 y0(__float128 const &x) noexcept
     {
         return ::y0q(x);
     }
 
-    __float128 y1(__float128 x) noexcept
+    __float128 y1(__float128 const &x) noexcept
     {
         return ::y1q(x);
     }
