@@ -104,12 +104,10 @@ namespace quadmath
         return ::erfcq(x);
     }
 
-#if 0
     __float128 exp2(__float128 const &x) noexcept
     {
         return ::exp2q(x);
     }
-#endif
 
     __float128 exp(__float128 const &x) noexcept
     {
