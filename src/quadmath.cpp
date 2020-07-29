@@ -199,7 +199,7 @@ namespace quadmath
         return ::j1q(x);
     }
 
-    __float128 jn(int n, __float128 x) noexcept
+    __float128 jn(int n, __float128 const &x) noexcept
     {
         return ::jnq(n, x);
     }
