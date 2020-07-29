@@ -1,2 +1,2 @@
 # libquadmath-cpp
-libquadmath wrapper in C++ for 128-bit floating point numbers
+libquadmath library wrapper in C++ supporting 128-bit floating point nummbers
