@@ -184,12 +184,10 @@ namespace quadmath
         return ::isnanq(x);
     }
 
-#if 0
     __float128 issignaling(__float128 const &x) noexcept
     {
         return ::issignalingq(x);
     }
-#endif
 
     __float128 j0(__float128 const &x) noexcept
     {
